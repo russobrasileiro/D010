@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url("fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-fundo: #1371C2;
+    --cor-titulo1: #0B869C;
+    --cor-titulo2: #1339C2;
+    --cor-destaques: #13C2A3;
+    --cor-links: #13C22B;
+
+    --font-padrao: arial, helvetica, verdana, sans-serif;
+    --font-titulo1: 'Roboto Slab', serif;
+    --font-titulo2: 'idroid', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+main {
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+article {
+    background-color: snow;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+article>picture {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+header {
+    background-image: linear-gradient(180deg, #1371c2, #0b869c, #1339c2);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+header>h1 {
+    text-align: center;
+    color: snow;
+    font-size: 3em;
+    font-family: var(--font-titulo1);
+}
+
+header>p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: var(--font-padrao);
+}
+
+nav {
+    background-color: #1339c2;
+}
+
+nav>a {
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-padrao);
+}
+
+a {
+    text-decoration: none;
+    color: #13C22B;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+article>aside {
+    width: 700px;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: '✔';
+    color: black;
+}
+
+footer {
+    background-color: lightslategray;
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#bugdroid {
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    font-family: var(--font-titulo2);
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor-titulo2);
+    text-indent: 1em;
+}
+
+h2 {
+    font-family: var(--font-titulo2);
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor-titulo2);
+    text-indent: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor-titulo2);
+    text-indent: 1em;
+}
+
+p {
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    font-weight: normal;
+    color: black;
+    text-indent: 1em;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+section {
+    display: block;
+    margin: auto;
+    min-width: 320px;
+    max-width: 700px;
+}
+
+section>p {
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    font-weight: normal;
+    color: black;
+    text-indent: 1em;
+    min-width: 320px;
+    max-width: 700px;
+}
