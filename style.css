@@ -181,9 +181,12 @@ section>p {
     min-width: 320px;
     max-width: 700px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 400px) {
     .container {
         display: block;
         background-image: none;
+    }
+    header{
+        width: 100%;
     }
 }
