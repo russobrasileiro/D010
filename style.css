@@ -32,15 +32,15 @@ body {
 
 main {
     margin: auto;
-    min-width: 320px;
-    max-width: 800px;
+    min-width: 470px;
+    max-width: 720px;
 }
 
 article {
     background-color: snow;
     margin: auto;
-    min-width: 320px;
-    max-width: 800px;
+    min-width: 470px;
+    max-width: 720px;
 }
 
 article>picture {
@@ -52,7 +52,7 @@ div {
     display: flex;
     justify-content: center;
     min-width: 320px;
-    max-width: 800px;
+    max-width: 720px;
 }
 
 header {
@@ -106,6 +106,7 @@ article>aside {
 
 ul {
     list-style: none;
+    columns: 2;
 }
 
 li::before {
@@ -179,4 +180,10 @@ section>p {
     text-indent: 1em;
     min-width: 320px;
     max-width: 700px;
+}
+@media screen and (max-width: 720px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
 }
