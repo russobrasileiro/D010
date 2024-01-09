@@ -187,6 +187,7 @@ section>p {
         background-image: none;
     }
     header{
+        max-width: 400px;
         width: 100%;
     }
 }
