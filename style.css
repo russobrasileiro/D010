@@ -198,7 +198,7 @@ section>p {
         width: 470px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body {
         width: 450px;
     }
