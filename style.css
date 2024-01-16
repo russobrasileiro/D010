@@ -198,20 +198,20 @@ section>p {
         width: 470px;
     }
 }
-@media screen and (max-width: 531px){
-    body{
-        width: 531px;
+@media screen and (max-width: 600px) {
+    body {
+        width: 450px;
     }
     header{
-        width: 531px;
+          width: 520px;
     }
     nav{
-        width: 531px;
+        width: 520px;
     }
     article{
-        width: 470px;
+        width: 400px;
     }
     footer{
-        width: 531px;
+        width: 520px;
     }
-} 
+}
