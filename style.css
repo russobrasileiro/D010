@@ -81,21 +81,23 @@ nav {
 
 nav>a {
     display: inline-block;
-    padding-left: 30px;
     text-decoration: none;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
     color: white;
     font-family: var(--font-padrao);
+    cursor: pointer;
+}
+nav>a:hover{
+    transition: 1s;
+    background-color: #13C2A3;
 }
 
-a {
+.link {
     text-decoration: none;
     color: #13C22B;
 }
-
-a:visited {
-    text-decoration: underline;
-}
-
 abbr {
     text-decoration: none;
 }
