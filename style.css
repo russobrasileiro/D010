@@ -198,20 +198,20 @@ section>p {
         width: 470px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 531px){
     body{
-        width: 520px;
+        width: 531px;
     }
     header{
-        width: 470px;
+        width: 531px;
     }
     nav{
-        width: 470px;
+        width: 531px;
     }
     article{
-        width: 450px;
+        width: 470px;
     }
     footer{
-        width: 470px;
+        width: 531px;
     }
 } 
